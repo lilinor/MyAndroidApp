@@ -27,7 +27,7 @@ jobs:
         uses:  genymobile/genymotion-saas-github-action@v1
         with:
           api_token: ${{ secrets.GMSAAS_APITOKEN }}
-          recipe_uuid: ea5fda48-fa8b-48c1-8acc-07d910856141 # Google Pixel XL 8.1
+          recipe_uuid: f90338c7-5e36-4e30-b376-f3252b08c23f # Android 13
 
       - name: Run Espresso Tests
         run: ./gradlew cAT

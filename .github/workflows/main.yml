@@ -28,3 +28,6 @@ jobs:
         with:
           api_token: ${{ secrets.GMSAAS_APITOKEN }}
           recipe_uuid: ea5fda48-fa8b-48c1-8acc-07d910856141 # Google Pixel XL 8.1
+
+      - name: Run Espresso Tests
+        run: ./gradlew cAT
